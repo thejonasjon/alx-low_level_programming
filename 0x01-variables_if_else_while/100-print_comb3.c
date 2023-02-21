@@ -13,9 +13,9 @@ int main(void)
 {
 	int first_digit = 0, second_digit = 0;
 
-	while (first_digit <= 9)
+	while (first_digit <= 89)
 	{
-		while (second_digit <= 9)
+		while (second_digit <= 89)
 		{
 			if (first_digit != second_digit && first_digit < second_digit)
 			{
