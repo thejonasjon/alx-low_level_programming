@@ -11,19 +11,19 @@
 
 int main(void)
 {
-	int num1, num2;
+	int first_digit, second_digit;
 
-	for (num1 = 0; num1 <= 98; num1++)
+	for (first_digit = 0; first_digit <= 98; first_digit++)
 	{
-		for (num2 = num1 + 1; num2 <= 99; num2++)
+		for (second_digit = first_digit + 1; second_digit <= 99; second_digit++)
 		{
-			putchar((num1 / 10) + '0');
-			putchar((num1 % 10) + '0');
+			putchar((first_digit / 10) + '0');
+			putchar((first_digit % 10) + '0');
 			putchar(' ');
-			putchar((num2 / 10) + '0');
-			putchar((num2 % 10) + '0');
+			putchar((second_digit / 10) + '0');
+			putchar((second_digit % 10) + '0');
 
-			if (num1 == 98 && num2 == 99)
+			if (first_digit + second_digit == 197)
 				continue;
 
 			putchar(',');
