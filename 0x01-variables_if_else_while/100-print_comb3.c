@@ -11,27 +11,23 @@
 
 int main(void)
 {
-	int first_digit = 0, second_digit = 1;
+	int first_digit, second_digit;
 
-	while (first_digit < 9)
+	for (first_digit = 0; first_digit < 9; first_digit++)
 	{
-		while (second_digit < 10)
+		for (second_digit = second_digit + 1; second_digit < 10; second_digit++)
 		{
-			if (first_digit != second_digit)
-			{
-				putchar(first_digit);
-				putchar(second_digit);
+			putchar((first_digit % 10) + '0');
+			putchar((second_digit % 10) + '0');
 
-				if (first_digit + second_digit != 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			++second_digit;
+			if (first_digit == 8 && second_digit == 9)
+				continue;
+			
+			putchar(',');
+			putchar(' ');
 		}
-		++first_digit;
 	}
+
 	putchar('\n');
 
 	return (0);
