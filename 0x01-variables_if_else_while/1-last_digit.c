@@ -5,8 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: program to assign a random number to n.
- *              last digit of the number stored in the n.
+ * Description: Program to assign a random number to n.
  *
  * Return: Always O (Success)
 */
