@@ -5,8 +5,8 @@
 /**
  * main - Entry point
  *
- * Description: This program will assign a random number to the variable n.
- *              last digit of the number stored in the variable n.
+ * Description: program to assign a random number to n.
+ *              last digit of the number stored in the n.
  *
  * Return: Always O (Success)
 */
