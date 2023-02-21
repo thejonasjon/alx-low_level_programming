@@ -3,8 +3,8 @@
 /**
  * main - Entry Point
  *
- * Description: Program that prints all possible
- * 		different combinations of two digits
+ * Description: Program that prints all possible 
+ *		different combinations of two digits
  *
  * Return: Always 0 (Success)
  */
