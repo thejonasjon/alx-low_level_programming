@@ -11,24 +11,28 @@
 
 int main(void)
 {
-	int first_digit, second_digit;
+	int first_digit = 0, second_digit = 0;
 
-	for (second_digit = 48; first_digit <= 56; first_digit++)
+	while (first_digit <= 9)
 	{
-		for (second_digit = 49; second_digit <= 57; second_digit++)
+		while (second_digit <= 9)
 		{
-			if (second_digit > first_digit)
+			if (first_digit != second_digit2 && first_digit < second_digit)
 			{
-				putchar(first_digit);
-				putchar(second_digit);
-				if (first_digit != 56 || second_digit != 57)
+				putchar(first_digit + 48);
+				putchar(second_digit + 48);
+
+				if (first_digit + second_digit != 17)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
+			++second_digit;
 		}
+		++first_digit;
 	}
 	putchar('\n');
+
 	return (0);
 }
