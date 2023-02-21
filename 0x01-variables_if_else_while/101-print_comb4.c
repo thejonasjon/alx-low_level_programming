@@ -23,7 +23,7 @@ int main(void)
 				putchar((second_digit % 10) + '0');
 				putchar((third_digit % 10) + '0');
 
-				if (first_digit + second_digit + third == 24)
+				if (first_digit + second_digit + third_digit == 24)
 					continue;
 				putchar(',');
 				putchar(' ');
