@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: This program will assign a random number to the variable n each time it is executed. Display Is positive when greater than O, is zero when equ * al O and Is negative when less than O.*
+ * Description: This program will assign a random number to the variable n each time it is executed.
  * Return: Always O (Succesfuls)
 */
 
