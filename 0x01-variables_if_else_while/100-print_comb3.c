@@ -11,11 +11,11 @@
 
 int main(void)
 {
-	int first_digit = 0, second_digit = 0;
+	int first_digit = 0, second_digit = 1;
 
-	while (first_digit <= 89)
+	while (first_digit <= 8)
 	{
-		while (second_digit <= 89)
+		while (second_digit <= 9)
 		{
 			if (first_digit != second_digit && first_digit < second_digit)
 			{
