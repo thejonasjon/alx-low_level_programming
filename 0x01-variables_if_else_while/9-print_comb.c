@@ -12,17 +12,15 @@ int main(void)
 {
 	int _digit = 0;
 
-	while (_digit <= 9)
+	for (_digit = 48; _digit < 58;  ++_digit)
 	{
-		putchar(_digit + 48);
+		putchar(_digit);
 
-		if (_digit != 9)
+		if (_digit != 57)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-
-		++_digit;
 	}
 	putchar('\n');
 
