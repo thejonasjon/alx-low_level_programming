@@ -3,8 +3,7 @@
 
 /**
  *_abs: fuction to return absolute value
- *
- *@n: argument to return convert value 
+ *@n: argument to return convert value
  *	into absolute
  *
  *Return: Always n absolute
