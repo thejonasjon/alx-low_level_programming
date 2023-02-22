@@ -1,12 +1,12 @@
 #include"main.h"
 
 /**
- * print_last_digit - Function to print last digit
- * 			of a number
+ *print_last_digit - Function to print last digit
+ * 		of a number
  *@n: argument given to print last number
  *@last_digit: placeholder for last digit from n
  * 
- * Return: Always 0 (success)
+ *Return: Always 0 (success)
  */
 
 int print_last_digit(int n)
