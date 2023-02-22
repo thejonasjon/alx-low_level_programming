@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * _isalpha(int c) - checks if c is a letter
+ * _isalpha - checks if c is a letter
  *
  * c: takes input from other functions.
  *
@@ -10,8 +10,7 @@
 
 int _isalpha(int c)
 {
-	int result = isalpha(c);
-	if (result !=  0)
+	if ( isalpha(c) )
 		return (1);
 	return (0);
 }
