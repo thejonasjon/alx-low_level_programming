@@ -2,11 +2,12 @@
 
 /**
  * print_sign - function to  check if n is a sign
+ * 
  * @n: argument to check for sign
  *
  * Return: 1 if n > 0
- * 		0 if n is 0
- * 		-1 if n < 0
+ *		0 if n is 0
+ *		-1 if n < 0
  */
 
 int print_sign(int n)
