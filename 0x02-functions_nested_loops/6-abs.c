@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- *_abs: fuction to return absolute value
+ *_abs - fuction to return absolute value
  *@n: argument to return convert value
  *	into absolute
  *
