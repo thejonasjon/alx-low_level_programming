@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * Main - Entry point
+ *main - Entry point
  *
  * Description: program that computes and prints
  *	the sum of all the multiples
