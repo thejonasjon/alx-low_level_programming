@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	unsigned long int j, k, sum;
+	unsigned long int a, b, sum;
 	float total_sum;
 
 	while (1)
