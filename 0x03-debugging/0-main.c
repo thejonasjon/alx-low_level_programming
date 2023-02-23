@@ -1,17 +1,16 @@
 #include"main.h"
 
 /**
-* main - main file is a test for a postitive_or_negative()
-* function
+* main - main file is a test for a postitive_or_negative() function
 *
-* Return: 0
+* Return: Always 0 (success)
 */
 
 int main(void)
 {
 	int i;
 
-	i = 98 % 2;
+	i = 0;
 	positive_or_negative(i);
 
 	return (0);
