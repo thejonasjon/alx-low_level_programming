@@ -14,8 +14,7 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	char cp = strcpy(dest, src);
-	printf("%s", src);
-	printf("%s", cp);
+	strcpy(dest, src);
+	printf("%s\n%s\n", src, dest);
 	return (0);
 }
