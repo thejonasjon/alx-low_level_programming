@@ -1,6 +1,6 @@
 #include"main.h"
-#include<string.h>
-#include<stdio.h>
+#include <stdio.h>  
+#include <string.h>
 
 /**
  * print_rev - function that prints a string,
@@ -13,6 +13,6 @@
 
 void print_rev(char *s)
 {
-	printf("%s\n", strrev(s));
+	printf("%c\n", strrev(s));
 	return (0);
 }
