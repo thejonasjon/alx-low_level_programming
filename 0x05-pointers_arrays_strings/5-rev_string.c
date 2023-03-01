@@ -7,7 +7,7 @@
  * @s: string to be printed
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int l, i;
 	char ch;
