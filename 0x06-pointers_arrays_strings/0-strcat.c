@@ -7,15 +7,27 @@
  * @dest: first argument
  * @src: second argument
  *
- * Return 0
+ * Return: pointer to the resulting string dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int j = 0;
-	if (src[j] != '\0')
+	int i, j;
+
+	i = 0;
+	j = 0;
+
+	while (dest[i] != '\0')
+		i++;
+
+	while (src[j] != '\0')
 	{
-		strcat(dest, src);
+		dest[i] = src[j];
+		j++;
+		i++;
 	}
+
+	dest[i] = '\0';
+
 	return (dest);
 }
