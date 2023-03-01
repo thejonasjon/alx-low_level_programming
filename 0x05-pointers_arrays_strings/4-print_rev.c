@@ -13,8 +13,6 @@
 
 void print_rev(char *s)
 {
-	s = strrev(s);
-
-	puts(s);
+	printf("%s\n", strrev(s));
 	return (0);
 }
