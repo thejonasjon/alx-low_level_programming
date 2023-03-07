@@ -15,12 +15,18 @@
 
 char *_strchr(char *s, char c)
 {
-        char *f;
+	int a;
 
-        if (strchr(s, c))
-        {
-                printf("%s", f);
-        }
-
-        return (NULL);
+	while (1)
+	{
+		a = *s++;
+		if (a == c)
+		{
+			return (s - 1);
+		}
+		if (a == 0)
+		{
+			return (NULL);
+		}
+	}
 }
