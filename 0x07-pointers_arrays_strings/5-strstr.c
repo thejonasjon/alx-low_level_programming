@@ -13,17 +13,18 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; haystack[i] != '\0'; i++)
+	unsigned int sum, sum1;
+
+	sum = 0;
+	sum1 = 0;
+
+	for (i = 0; i < size; i++)
 	{
-		for (j = 0; needle[j] != '\0'; j++)
-		{
-			if (haystack[i + j] != needle[j])
-				break;
-		}
-		if (!needle[j])
-			return (&haystack[i]);
+		sum += a[(size * i) + i];
+		sum1 += a[(size * (i + 1)) - (i + 1)];
 	}
-	return (NULL);
+
+	printf("%d, %d\n", sum, sum1);
 }
